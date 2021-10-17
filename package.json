@@ -4,9 +4,25 @@
   "description": "Cache the result of a slow and/or resource/time consuming operation (e.g. response from a server request, heavy computation) into a local file.",
   "main": "readCachedFile.js",
   "scripts": {
-    "doc": "./node_modules/.bin/jsdoc . -d ./docs"
+    "docs": "jsdoc . ./README.md -d ./docs",
+    "postdocs": "start docs/index.html"
   },
   "keywords": [],
   "author": "kevduc",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jsdoc": "^3.6.7"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevduc/read-cached-file.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kevduc/read-cached-file/issues"
+  },
+  "homepage": "https://github.com/kevduc/read-cached-file#readme"
 }
