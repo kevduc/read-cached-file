@@ -9,6 +9,8 @@ Cache the result of a usually slow and/or resource/time consuming operation (e.g
 ## 📖 Example
 
 ```javascript
+import readCachedFile from 'read-cached-file'
+
 // Callback to retrieve the data
 const getPhotoData = async () => await (await fetch('https://jsonplaceholder.typicode.com/photos')).text()
 
