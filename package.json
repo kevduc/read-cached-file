@@ -4,8 +4,8 @@
   "description": "Cache the result of a slow and/or resource/time consuming operation (e.g. response from a server request, heavy computation) into a local file.",
   "main": "readCachedFile.js",
   "scripts": {
-    "docs": "jsdoc . ./README.md -d ./docs",
-    "postdocs": "start docs/index.html"
+    "doc": "jsdoc . ./README.md -d ./docs",
+    "postdoc": "start docs/index.html"
   },
   "keywords": [],
   "author": "kevduc",

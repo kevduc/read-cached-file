@@ -2,6 +2,10 @@
  
 Cache the result of a usually slow and/or resource/time consuming operation (e.g. response from a server request, heavy computation) into a local file.
 
+- [📚 Documentation](https://kevduc.github.io/read-cached-file/)
+- [📦 Package](https://www.npmjs.com/package/read-cached-file)  
+`npm i read-cached-file`
+
 ## 📖 Example
 
 ```javascript
