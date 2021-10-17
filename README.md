@@ -1,25 +1,24 @@
 # readCachedFile
  
-Cache the result of a slow and/or resource/time consuming operation (e.g. response from a server request, heavy computation) into a local file.
+Cache the result of a usually slow and/or resource/time consuming operation (e.g. response from a server request, heavy computation) into a local file.
 
-## Example
+## 📖 Example
+
 ```javascript
-const data = null
-
 // Callback to retrieve the data
-
 const getPhotoData = async () => await (await fetch('https://jsonplaceholder.typicode.com/photos')).text()
 
-// Run once: calls getPhotoData and creates photos-data.json
-
-data = await readCachedFile("./photos-data.json", getPhotoData)
-
+// Run script once: calls getPhotoData and creates photos-data.json
 // Run a second time: no network request, reads from photos-data.json
+const data = await readCachedFile("./photos-data.json", getPhotoData)
 
-data = await readCachedFile("./photos-data.json", getPhotoData)
+// Do something with the data
+const photos = JSON.parse(data)
 ```
 
-## Tips
+## 💡 Tips
 
 - To force retrieving/re-generating the data, set `forceUpdate` to true:  
-`data = await readCachedFile("./photos-data.json", getPhotoData, true)`
+```javascript
+data = await readCachedFile("./photos-data.json", getPhotoData, true)
+```
