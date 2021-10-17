@@ -1,6 +1,6 @@
 {
   "name": "read-cached-file",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Cache the result of a slow and/or resource/time consuming operation (e.g. response from a server request, heavy computation) into a local file.",
   "main": "readCachedFile.js",
   "scripts": {
