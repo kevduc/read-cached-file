@@ -1,12 +1,13 @@
 {
   "name": "read-cached-file",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Cache the result of a slow and/or resource/time consuming operation (e.g. response from a server request, heavy computation) into a local file.",
   "main": "readCachedFile.js",
   "scripts": {
     "doc": "jsdoc . ./README.md -d ./docs",
     "postdoc": "start docs/index.html"
   },
+  "type": "module",
   "keywords": [],
   "author": "kevduc",
   "license": "MIT",
