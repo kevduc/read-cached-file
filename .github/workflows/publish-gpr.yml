@@ -1,5 +1,5 @@
 # From https://docs.github.com/en/actions/publishing-packages/publishing-nodejs-packages
-name: Publish package to GitHub Packages
+name: Publish package to gpr # GitHub Package Registery
 
 on:
   push:
