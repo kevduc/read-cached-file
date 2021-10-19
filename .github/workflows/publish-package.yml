@@ -1,6 +1,6 @@
 # From https://docs.github.com/en/actions/publishing-packages/publishing-nodejs-packages
+# Publish package to npm and GitHub Packages
 name: Publish package
-description: Publish package to npm and GitHub Packages
 
 on:
   push:
