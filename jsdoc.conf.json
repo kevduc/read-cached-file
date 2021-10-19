@@ -1,0 +1,8 @@
+{
+  "source": { "include": ["./index.js", "./README.md"] },
+  "opts": {
+    "destination": "./docs/",
+    "encoding": "utf8",
+    "cleverLinks": true
+  }
+}

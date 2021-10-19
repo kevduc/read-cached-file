@@ -4,11 +4,25 @@
   "description": "Cache the result of a slow and/or resource/time consuming operation (e.g. response from a server request, heavy computation) into a local file.",
   "main": "readCachedFile.js",
   "scripts": {
-    "doc": "jsdoc . ./README.md -d ./docs",
+    "doc": "jsdoc -c ./jsdoc.conf.json",
     "postdoc": "start docs/index.html"
   },
   "type": "module",
-  "keywords": [],
+  "keywords": [
+    "local",
+    "cache",
+    "read",
+    "cached",
+    "file",
+    "slow",
+    "save",
+    "network-requests",
+    "resource-consumption",
+    "local-caching",
+    "local-file",
+    "speed-up",
+    "time-consuming"
+  ],
   "author": "kevduc",
   "license": "MIT",
   "devDependencies": {
