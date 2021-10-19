@@ -1,4 +1,5 @@
-name: publish-docs
+# From https://github.com/marketplace/actions/jsdoc-action
+name: Publish docs
 
 on:
   push:
